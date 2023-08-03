@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="17.203" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Test login functionality" name="Check login using valid crendentials - Example #1.1" time="9.279">
+<system-out><![CDATA[
+Given browser is open.......................................................passed
+And user is on loginpage....................................................passed
+When user enters maria and 12345............................................passed
+And user clicks login page..................................................passed
+Then user is navigated to home page.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test login functionality" name="Check login using valid crendentials - Example #1.2" time="7.767">
+<system-out><![CDATA[
+Given browser is open.......................................................passed
+And user is on loginpage....................................................passed
+When user enters rima and 12345.............................................passed
+And user clicks login page..................................................passed
+Then user is navigated to home page.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
